@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture of the Day by Nasa</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./imagens/logoNasa.png">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+        
+         <header class="cabecalhoContainer">
+        <img src="./imagens/logoNasa.png" class="cabecalhoLogo">
+        <h1 class="cabecalhoTxt">Picture of the day by NASA</h1>
+        </header>
+
+        <main class="conteudoContainer">
+            <div class="data">
+                <input type="date" class="dataInput">
+                <button type="submit" onclick="apod()" class="dataButton">📷</button>
+            </div>
+
+            <div class="pictureDayContainer">
+                <h2 class="pictureDayTitulo"></h2>
+                <p class="pictureDayTexto"></p>
+                <img class="pictureDayImagem" />
+                <iframe class="pictureDayVideo" src="" frameborder="0"></iframe>
+            </div>
+        </main>
+
+        <footer class="rodapeContainer">
+            <p>Desenvolvido por César Freitas</p>
+        </footer>
+
+</body>
+
+</html>
